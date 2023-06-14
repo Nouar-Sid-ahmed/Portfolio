@@ -1,10 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Home() {
+    const { t } = useTranslation();
+
     return (
         <div>
-            <h1>Bienvenue sur mon site</h1>
-            <p>Développeur Full Stack Freelance & Enseignant Indépendant en Informatique</p>
+            <h1>{t('welcome')}</h1>
+            <p>{t('intro')}</p>
         </div>
     );
 }

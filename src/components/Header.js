@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LanguageSwitcher from './LanguageSwitcher';
 
 function Header() {
     return (
@@ -14,6 +15,7 @@ function Header() {
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
+            <LanguageSwitcher />
         </header>
     );
 }
