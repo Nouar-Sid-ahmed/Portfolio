@@ -19,19 +19,19 @@ export default {}
   select {
     padding: 10px;
     font-size: 1em;
-    border: 1px solid #ccc;
-    color: #333;
+  border: 1px solid #ccc;
+  color: #333;
     background-color: #fff;
     border-radius: 5px;
-  }
+}
 
   select option {
     padding: 10px;
-  }
+}
 
   select img {
-    width: 20px;
-    height: auto;
-    margin-right: 5px;
-  }
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
 </style>

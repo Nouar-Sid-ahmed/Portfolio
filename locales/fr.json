@@ -3,5 +3,9 @@
     "about": "À propos de moi",
     "services": "Services",
     "portfolio": "Portfolio",
-    "contact": "Contact"
+    "contact": "Contact",
+    "footerText":"Développé par M.Nouar",
+    "name": "Nouar Sid-ahmed",
+    "homeDescription": "Développeur fullstack orienté back-end, enseignant en algorithmie, développement Back-end et Bas niveau.",
+    "teachingDescription": "Freelance"
 }  

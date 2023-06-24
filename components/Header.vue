@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1 class="header__title">Sid-ahmed NOUAR</h1>
+    <img src="../static/logo_alternet.png" alt="Sid-ahmed NOUAR" class="header__icon" />
     <nav class="header__nav">
       <ul class="header__nav-list">
         <li class="header__nav-item"><nuxt-link to="/">{{$t('home')}}</nuxt-link></li>
@@ -33,24 +33,35 @@ export default {
     padding: 20px;
 }
 
-.header__title {
-    margin: 0;
+.header__icon {
+    /* Appliquez le style que vous souhaitez pour l'icône ici */
+    width: 60px;
+    height: 50px;
 }
 
 .header__nav-list {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: revert;
+}
+
+.header__nav-item {
+  margin: 0 30px;
 }
 
 .header__nav-item a {
-    color: #FFFFFF; /* Blanc */
-    text-decoration: none;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .header__nav-item a:hover {
-    text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 </style>
